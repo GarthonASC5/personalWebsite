@@ -34,5 +34,25 @@ body {
 
 .box p{
     text-align: justify;
-    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style-type: none;
+}
+
+.box li a{
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+    color: white;
 }
